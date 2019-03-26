@@ -51,28 +51,4 @@ https://putaindecode.io/articles/introduction-a-docker
 #Les Dockerfiles#
 https://putaindecode.io/articles/les-dockerfiles/
 
-https://github.com/yxg1217/Node.jsTCP_docker/edit/master/README.md
-
-
-########################################################
-export PATH="$PATH:/home/osadmin/go/bin"
-/root/go/bin/comcast
-/root/go/src/github.com/tylertreat/comcast
-PATH=$PATH:/root/go/bin
-
-
-osadmin@ubuntu-vm:~$ ls
-client  docker-compose.yml  go  server
-osadmin@ubuntu-vm:~$ cd go/src/
-osadmin@ubuntu-vm:~/go/src$ ls
-github.com
-osadmin@ubuntu-vm:~/go/src$ ls *
-tylertreat
-osadmin@ubuntu-vm:~/go/src$ cd github.com/tylertreat/comcast/
-##################################################################
-root@78922b63db1f:/server# apt-get install iproute2 #pour installer tc
-
-osadmin@ubuntu-vm:~$ docker run -t -i server-js
-root@2e252a968197:/server# exit
-osadmin@ubuntu-vm:~$ docker commit -m "add sudo" -a "xiaogey" 2e252a968197 server-js
 
