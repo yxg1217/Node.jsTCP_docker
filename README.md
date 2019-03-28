@@ -52,3 +52,7 @@ https://putaindecode.io/articles/introduction-a-docker
 https://putaindecode.io/articles/les-dockerfiles/
 
 
+#Commande Tc  - Test de Traffic Controller TC in Linux Operating System#
+On creer un nouvau image avec le fichier tc.sh
+
+
