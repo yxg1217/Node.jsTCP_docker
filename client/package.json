@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "bonjour",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "start": "node server.js"
+  },
+  "author": "XGY",
+  "license": "ISC",
+  "dependencies": {
+		"chai": "^3.5.0",
+		"express": "^4.14.0",
+		"mocha": "^3.2.0"
+	}
+}
