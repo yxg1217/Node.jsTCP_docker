@@ -1,0 +1,10 @@
+
+version: '3'
+services:
+  web:
+    image: server-js
+    ports:
+      - 8000:8000
+
+  client:
+    image: client-js
